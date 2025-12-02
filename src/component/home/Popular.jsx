@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'; 
 import axios from 'axios';
-import Skeleton from '../../layouts/skeleton';
+import Skeleton from '../../layouts/Skeleton';
 import ProductCard from '../../layouts/ProductCard';
 
 import 'aos/dist/aos.css';
