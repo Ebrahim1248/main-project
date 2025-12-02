@@ -53,11 +53,13 @@ const Footer = () => {
           </ul>
         </div>
         <div className="">
-          <h3>Newsletter</h3>
-          <p className='pb-4'>Subscribe to our newsletter and get 10% off your first purchase .</p>
-          <div className="relative border-2 border-secondary md:w-[280px] lg:max-w-[450px]" >
-            <input type="email" placeholder='Email Adderss' className='border-r-2 border-r-secondary max-h-10 md:w-[250px] lg:max-w-[400px]'/>
-            <button className='absolute right-0 lg:right-0 top-1/2 -translate-1/2'><FaArrowRight /></button>
+          <h3 className='text-lg font-semibold text-primary mb-8'>Newsletter</h3>
+          <div className='flex flex-col gap-2.5 text-secondary text-sm font-normal'>
+            <p className='pb-4'>Subscribe to our newsletter and get 10% off your first purchase .</p>
+            <div className="relative border-2 border-secondary md:w-[280px] lg:max-w-[450px]" >
+              <input type="email" placeholder='Email Adderss' className='border-r-2 border-r-secondary max-h-10 md:w-[250px] lg:max-w-[400px]'/>
+              <button className='absolute right-0 lg:right-0 top-1/2 -translate-1/2'><FaArrowRight /></button>
+            </div>
           </div>
           
         </div>

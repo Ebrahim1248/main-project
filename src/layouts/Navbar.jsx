@@ -30,8 +30,21 @@ const Navbar = () => {
           </ul>
         </div>     
         <div className="flex gap-6 text-secondary items-center text-xl">
-          <Link to="/signUp"className='border-1 border-primary px-5 text-white text-1xl font-medium bg-[#0D1164] hover:scale-105 translate-0.3 py-2 rounded-2xl'>Sign up</Link>
-          <Link to="Login"className='border-1 border-primary px-5 text-white text-1xl font-medium bg-[#0D1164] hover:scale-105 translate-0.3 py-2 rounded-2xl'>Login</Link>
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
+            <Link 
+              to="/signUp" 
+              className="border border-primary px-5 py-2 text-white text-base sm:text-lg font-medium bg-[#0D1164] hover:scale-105 transition-transform rounded-2xl w-full sm:w-auto text-center"
+            >
+              Sign up
+            </Link>
+
+            <Link 
+              to="/Login" 
+              className="border border-primary px-5 py-2 text-white text-base sm:text-lg font-medium bg-[#0D1164] hover:scale-105 transition-transform rounded-2xl w-full sm:w-auto text-center"
+            >
+              Login
+            </Link>
+          </div>
 
         <Link to="/"><TfiShoppingCart /></Link>
         </div>
