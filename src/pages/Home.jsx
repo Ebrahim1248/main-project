@@ -1,6 +1,6 @@
 import React from 'react'
-import Banner from '../component/Home/Banner'
-import Popular from '../component/Home/Popular.Jsx'
+import Banner from '../component/home/Banner.jsx'
+import Popular from "../component/home/Popular.jsx";
 
 const Home = () => {
   return (
