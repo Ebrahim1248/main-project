@@ -8,7 +8,7 @@ import SignUp from './component/SignUp'
 import Contact from './pages/Contact'
 import Blog from './pages/Blog'
 import About from './pages/About'
-import Login from './component/Shop/Login'
+import Login from './component/shop/Login'
 
 const App = () => {
   

@@ -1,6 +1,6 @@
 import React from 'react'
 import ShopBanner from '../layouts/ShopBanner'
-import Product from '../component/Shop/Product'
+import Product from '../component/shop/Product'
 
 const Shop = () => {
   return (
