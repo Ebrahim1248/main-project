@@ -32,7 +32,7 @@ const Navbar = () => {
           </ul>
         </div>     
         <div className="flex gap-6 text-secondary items-center text-xl">
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
+          <div className="flex  flex-row gap-4 sm:gap-6 justify-center items-center">
             <Link 
               to="/signUp" 
               className="border border-primary px-2 py-1 md:px-5 md:py-2 text-white text-base md:text-lg font-medium bg-[#0D1164] hover:scale-105 transition-transform rounded-2xl w-full sm:w-auto text-center"
