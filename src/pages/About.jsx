@@ -24,7 +24,7 @@ const About = () => {
         {/* Image */}
         <div className="w-full lg:w-1/3" data-aos="fade-right">
           <img
-            src="public/About.jpg"
+            src="/About.jpg"
             alt="About Us"
             className="rounded-lg shadow-lg"
           />
