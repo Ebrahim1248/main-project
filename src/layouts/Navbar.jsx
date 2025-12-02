@@ -22,7 +22,7 @@ const Navbar = () => {
           </ul>
         </div>  
         {/* for mobile    */}
-        <div className={`md:hidden fixed ${show? "translate-x-0":"translate-x-full"}  top-24 right-0 bg-background  w-screen transition duration-500 pt-8 pb-4`}>
+        <div className={`md:hidden fixed ${show? "translate-x-0":"translate-x-full"}  top-24 right-0 bg-background  w-screen transition duration-500 pt-8 pb-4 z-10`}>
           <ul className=" flex flex-col items-center  text-secondary font-medium text-lg ">
             <li><Link to="/" className='px-screen inline-block'>Home</Link></li>
             <li><Link to="/shop" className='px-full inline-block'>Shop</Link></li>
