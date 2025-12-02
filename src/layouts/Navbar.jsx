@@ -6,7 +6,7 @@ import { Link } from 'react-router'
 const Navbar = () => {
   const [show,setShow]=useState(false);
   return (
-    <nav>
+    <nav className='sticky top-0 bg-white shadow z-50 mb-0.5'>
       <div className="container  flex justify-between items-center py-14">
         <Link to="/">
           <img src="/logo.png" alt="logo" />
@@ -22,7 +22,7 @@ const Navbar = () => {
           </ul>
         </div>  
         {/* for mobile    */}
-        <div className={`md:hidden fixed ${show? "translate-x-0":"translate-x-full"}  top-24 right-0 bg-background  w-screen transition duration-500 pt-8 pb-4 z-10`}>
+        <div className={`md:hidden fixed ${show? "translate-x-0":"translate-x-full"}  top-24 right-0 bg-background  w-screen transition duration-500 pt-8 pb-4 `}>
           <ul className=" flex flex-col items-center  text-secondary font-medium text-lg ">
             <li><Link to="/" className='px-screen inline-block'>Home</Link></li>
             <li><Link to="/shop" className='px-full inline-block'>Shop</Link></li>
